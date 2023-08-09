@@ -47,7 +47,7 @@ jobs:
         - name: Installing NPM
           run: npm install
         - name: Installing playwright
-          run: npm playwright install --wiht-deps
+          run: npx playwright install --wiht-deps
         - name: Start server
           run: npm run start
         - name: Running ui tests
