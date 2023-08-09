@@ -22,7 +22,7 @@ jobs:
     - name: Running untit tests
       run: npm run test:unit
     - name: Display softuni username
-    - run: echo "stefan147"
+      run: echo "stefan147"
     
   deploy:
       needs: build
